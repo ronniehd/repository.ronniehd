@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
     id="skin.eminence.2.mod"
-    version="1.6.2"
+    version="1.7.0"
     name="Eminence 2.0 MOD"
-    provider-name="jurialmunkey - Mod by Guilouz">
+    provider-name="jurialmunkey - Mod by Guilouz, edit4ever, RonnieHD and many more">
     <requires>
         <import addon="xbmc.gui" version="5.10.0"/>
         <import addon="script.skinshortcuts" version="0.6.0"/>
@@ -19,9 +19,12 @@
         <platform>all</platform>
         <summary lang="en">Clean, clear, simple, modern.</summary>
         <summary lang="fr">Clair, simple et moderne.</summary>
+		<summary lang="es">Limpio, simple y moderno.</summary>
         <disclaimer lang="en">Mouse and Touch device not supported</disclaimer>
         <disclaimer lang="fr">La souris et les périphériques tactiles ne sont pas supportés</disclaimer>
+		<disclaimer lang="es">Raton y dispositivo tactil no son compatibles</disclaimer>
         <description lang="en">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
         <description lang="fr">Eminence est un thème qui vise à être clair, simple et moderne.</description>
+		<description lang="es">Eminence es una piel que pretende ser limpio, simple y moderno.</description>
     </extension>
 </addon>
