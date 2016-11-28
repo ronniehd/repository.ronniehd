@@ -1,3 +1,10 @@
+[B]1.7.0[/B]
+Add icon arts
+Add smart playlists
+Add backgrounds
+Add spanish translation
+Fix weather widget
+
 [B]1.6.2[/B]
 Fix duration flag.
 Set non-persistent widgets as default (Use option "Allow widget reloading" to enable non-persistent widgets).
