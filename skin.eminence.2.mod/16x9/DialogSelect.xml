@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <defaultcontrol always="true">3</defaultcontrol>
+    <controls>
+        <include>GlobalOverlay</include>
+        <control type="group">
+            <animation effect="slide" start="0" end="293" time="0" condition="Control.IsVisible(3)">Conditional</animation>
+            <include>Animation_SlideIn</include>
+            <include>Animation_FadeOut</include>
+            <centerleft>50%</centerleft>
+            <width>1742</width>
+            <bottom>89</bottom>
+            <height>652</height>
+            <control type="group">
+                <visible>Control.IsVisible(6)</visible>
+                <include>Dialog_Background</include>
+            </control>
+            <control type="group">
+                <left>0</left>
+                <right>586</right>
+                <visible>Control.IsVisible(3)</visible>
+                <include>Dialog_Background</include>
+            </control>
+            <include name="Dialog_Top_IconHeader">
+                <param name="label" value="$INFO[Control.GetLabel(1)]" />
+                <param name="icon" value="special://skin/extras/icons/filebox.png" />
+            </include>
+            <control type="image">
+                <left>side</left>
+                <bottom>side</bottom>
+                <width>552</width>
+                <height>552</height>
+                <visible>Control.IsVisible(6)</visible>
+                <texture colordiffuse="PosterBorder">common/white.png</texture>
+            </control>
+            <control type="image">
+                <left>side</left>
+                <bottom>side</bottom>
+                <width>552</width>
+                <height>552</height>
+                <aspectratio>keep</aspectratio>
+                <visible>Control.IsVisible(6)</visible>
+                <texture background="true" fallback="DefaultAddon.png">$INFO[Container(6).ListItem.Icon]</texture>
+            </control>
+            <include name="Dialog_FavouriteList">
+                <param name="id" value="3" />
+                <param name="onup" value="3" />
+                <param name="ondown" value="3" />
+                <param name="moveid" value="5" />
+                <param name="left" value="side" />
+                <param name="top" value="80" />
+                <param name="width" value="1116" />
+                <param name="bottom" value="side" />
+            </include>
+            <include name="Dialog_ImageList">
+                <param name="id" value="6" />
+                <param name="onup" value="6" />
+                <param name="ondown" value="6" />
+                <param name="moveid" value="5" />
+                <param name="left" value="582" />
+                <param name="width" value="1160" />
+            </include>
+
+            <control type="grouplist">
+            <visible>!Control.IsVisible(6)</visible>
+            <right>356</right>
+            <width>850</width>
+            <itemgap>10</itemgap>
+            <orientation>horizontal</orientation> 
+            <height>60</height>
+            <align>right</align>
+            <top>pad</top>
+            <control type="button" id="5">    
+                <width>460</width>         
+                <onleft>7</onleft>
+                <onright>7</onright>
+                <onup>3</onup>
+                <ondown>3</ondown>
+                <label>-</label>
+                <texturenofocus>noop</texturenofocus>
+                <texturefocus>noop</texturefocus>
+                <focusedcolor>$VAR[HighlightColor]</focusedcolor>
+                <include>Defs_OptionButton</include>
+            </control>
+            <control type="button" id="7">
+                <onleft>5</onleft>
+                <onright>5</onright>
+                <onup>3</onup>
+                <ondown>3</ondown>
+                <label>222</label>
+                <texturenofocus>noop</texturenofocus>
+                <texturefocus>noop</texturefocus>
+                <focusedcolor>$VAR[HighlightColor]</focusedcolor>
+                <onclick>Dialog.Close(selectdialog)</onclick>
+                <include>Defs_OptionButton</include>
+            </control>
+            </control>
+        </control>
+
+        <!-- Hidden Label -->
+        <control type="label" id="1"><visible>false</visible><font>-</font></control>
+    </controls>
+
+</window>

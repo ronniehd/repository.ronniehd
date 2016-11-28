@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>1001</defaultcontrol>
+	<coordinates>
+        <origin x="0" y="0" />
+    </coordinates>
+	<controls>
+		<!-- assume the context menu contains 1 button. code the size/position of all controls based on that -->
+		<include>GlobalOverlay</include>
+        <control type="group">
+            <include>Animation_FadeIn</include>
+            <include>Animation_FadeOut</include>
+            <top>489</top>
+            <centerleft>50%</centerleft>
+            <width>466</width>
+            <control type="image" id="999">
+                <description>background image</description>
+                <posx>34</posx>
+                <posy>-16</posy>
+                <width>400</width>
+                <height>102</height>
+                <texture colordiffuse="DialogBG">common/white.png</texture>
+            </control>
+			<control type="group" id="1000">
+				<left>52</left>
+				<control type="button" id="1001">
+					<width>364</width>
+        					<height>69</height>
+        					<textcolor>ListLabel</textcolor>
+        					<alttextcolor>Selected</alttextcolor>
+        					<selectedcolor>Selected</selectedcolor>
+        					<focusedcolor>Selected</focusedcolor>
+        					<font>Font-ListInfo-Small</font>
+        					<aligny>center</aligny>
+        					<align>center</align>
+        					<radioposx>320</radioposx>
+        					<texturenofocus colordiffuse="PosterBorder">common/white.png</texturenofocus>
+        					<texturefocus colordiffuse="$VAR[HighlightColor]">common/white.png</texturefocus>
+        					<alttexturenofocus colordiffuse="PosterBorder">common/white.png</alttexturenofocus>
+        					<alttexturefocus colordiffuse="$VAR[HighlightColor]">common/white.png</alttexturefocus>
+					<onleft>1001</onleft>
+					<onright>1001</onright>
+					<onup>1003</onup>
+					<ondown>1002</ondown>
+				</control>
+				<control type="button" id="1002">
+					<width>364</width>
+        					<height>69</height>
+        					<textcolor>ListLabel</textcolor>
+        					<alttextcolor>Selected</alttextcolor>
+        					<selectedcolor>Selected</selectedcolor>
+        					<focusedcolor>Selected</focusedcolor>
+        					<font>Font-ListInfo-Small</font>
+        					<aligny>center</aligny>
+        					<align>center</align>
+        					<radioposx>320</radioposx>
+        					<texturenofocus colordiffuse="PosterBorder">common/white.png</texturenofocus>
+        					<texturefocus colordiffuse="$VAR[HighlightColor]">common/white.png</texturefocus>
+        					<alttexturenofocus colordiffuse="PosterBorder">common/white.png</alttexturenofocus>
+        					<alttexturefocus colordiffuse="$VAR[HighlightColor]">common/white.png</alttexturefocus>
+					<onleft>1002</onleft>
+					<onright>1002</onright>
+					<onup>1001</onup>
+					<ondown>1003</ondown>
+				</control>
+				<control type="button" id="1003">
+					<width>364</width>
+        					<height>69</height>
+        					<textcolor>ListLabel</textcolor>
+        					<alttextcolor>Selected</alttextcolor>
+        					<selectedcolor>Selected</selectedcolor>
+        					<focusedcolor>Selected</focusedcolor>
+        					<font>Font-ListInfo-Small</font>
+        					<aligny>center</aligny>
+        					<align>center</align>
+        					<radioposx>320</radioposx>
+        					<texturenofocus colordiffuse="PosterBorder">common/white.png</texturenofocus>
+        					<texturefocus colordiffuse="$VAR[HighlightColor]">common/white.png</texturefocus>
+        					<alttexturenofocus colordiffuse="PosterBorder">common/white.png</alttexturenofocus>
+        					<alttexturefocus colordiffuse="$VAR[HighlightColor]">common/white.png</alttexturefocus>
+					<onleft>1003</onleft>
+					<onright>1003</onright>
+					<onup>1002</onup>
+					<ondown>1001</ondown>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

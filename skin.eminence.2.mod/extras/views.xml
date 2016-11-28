@@ -1,0 +1,33 @@
+<views>
+    <view id="Posters" value="52" languageid="31651" type="movies,tvshows,seasons,sets,setmovies"/>
+    <view id="Cycle" value="156" languageid="31728" type="movies,tvshows,seasons"/>
+    <view id="Info icons" value="59" languageid="31141" type="movies,tvshows,seasons,sets,setmovies"/>
+    <view id="Big Posters" value="51" languageid="31643" type="movies,tvshows,episodes,sets,seasons,albums,artists,setmovies"/>
+    <view id="Posters list 1" value="504" languageid="31685" type="movies,setmovies,tvshows,seasons,sets,episodes"/>
+    <view id="Posters list 2" value="507" languageid="31685" type="artists,albums,programs"/>
+    <view id="Banners" value="55" languageid="31642" type="movies,tvshows,seasons"/>
+    <view id="Big Banner" value="158" languageid="31730" type="movies,tvshows,sets,seasons,setmovies,episodes"/>
+    <view id="Frames" value="56" languageid="31644" type="movies,tvshows,seasons,episodes,pictures,sets,artists,setmovies"/>
+    <view id="Gallery" value="505" languageid="31163" type="movies,tvshows,episodes,sets,seasons,artists,setmovies"/>
+    <view id="Big wide" value="53" languageid="540" type="movies,tvshows,episodes,sets,seasons,artists,setmovies"/>
+    <view id="Big wide with logos" value="600" languageid="31532" type="movies,tvshows,sets,setmovies"/>
+    <view id="BigWide ClearArt" value="160" languageid="31743" type="movies,tvshows,sets,setmovies"/> 
+    <view id="Big list" value="57" languageid="537" type="movies,tvshows,episodes,seasons,sets,albums,artists,setmovies"/>
+    <view id="Big list info" value="501" languageid="31142" type="movies,tvshows,episodes,seasons,sets,setmovies"/>
+    <view id="Panel list" value="58" languageid="31137" type="all"/>
+    <view id="Thumbs" value="500" languageid="31647" type="all"/>
+    <view id="List" value="50" languageid="535" type="all"/>
+    <view id="Media Info 1" value="54" languageid="31645" type="movies,tvshows,episodes,sets,seasons,setmovies"/>
+    <view id="Media Info 2" value="502" languageid="31143" type="movies,tvshows,episodes,sets,seasons,setmovies"/>
+    <view id="Media Info 3" value="503" languageid="31148" type="movies,tvshows,episodes,sets,seasons,setmovies"/>
+    <view id="Info List" value="508" languageid="31192" type="movies,tvshows,episodes,sets,seasons,setmovies"/>
+    <view id="Info List 2" value="509" languageid="31646" type="movies,tvshows,episodes,sets,seasons,setmovies"/>
+    <view id="Fanarts/Thumbs list" value="506" languageid="31164" type="movies,tvshows,episodes,sets,seasons,artists,songs,setmovies"/>
+    <view id="Fanart Logo" value="159" languageid="31742" type="movies,tvshows,sets,setmovies"/>  
+    <view id="BigWide Classic" value="157" languageid="31729" type="movies,tvshows,sets,seasons,setmovies,episodes,artists,musicvideos"/>  
+    <view id="ClearArts List" value="161" languageid="31744" type="movies,tvshows"/>
+    <view id="Logos List" value="162" languageid="31745" type="movies,tvshows,sets,setmovies"/> 
+    <view id="PVR WideList" value="163" languageid="31168" type="tvchannels"/>
+    <view id="PVR Small List" value="164" languageid="535" type="tvchannels"/>
+    <view id="PVR Big List" value="165" languageid="537" type="tvchannels"/> 
+</views>
