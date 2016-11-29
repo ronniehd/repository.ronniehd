@@ -83,4 +83,34 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon
+    id="skin.eminence.2.mod"
+    version="1.7.0"
+    name="Eminence 2.0 MOD"
+    provider-name="jurialmunkey - Mod by Guilouz, edit4ever, RonnieHD and many more">
+    <requires>
+        <import addon="xbmc.gui" version="5.10.0"/>
+        <import addon="script.skinshortcuts" version="0.6.0"/>
+        <import addon="script.skin.helper.service" version="0.0.1"/>
+        <import addon="script.extendedinfo" version="3.0.0"/>
+        <import addon="script.image.resource.select" version="0.0.5"/>
+        <import addon="plugin.program.autocompletion" version="1.0.1"/>
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1.00" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Clean, clear, simple, modern.</summary>
+        <summary lang="fr">Clair, simple et moderne.</summary>
+		<summary lang="es">Limpio, simple y moderno.</summary>
+        <disclaimer lang="en">Mouse and Touch device not supported</disclaimer>
+        <disclaimer lang="fr">La souris et les périphériques tactiles ne sont pas supportés</disclaimer>
+		<disclaimer lang="es">Raton y dispositivo tactil no son compatibles</disclaimer>
+        <description lang="en">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <description lang="fr">Eminence est un thème qui vise à être clair, simple et moderne.</description>
+		<description lang="es">Eminence es una piel que pretende ser limpio, simple y moderno.</description>
+    </extension>
+</addon>
 </addons>
