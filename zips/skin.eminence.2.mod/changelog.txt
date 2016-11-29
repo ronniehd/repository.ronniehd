@@ -1,0 +1,350 @@
+[B]1.7.0[/B]
+Add icon arts
+Add smart playlists
+Add backgrounds
+Add spanish translation
+Fix weather widget
+
+[B]1.6.2[/B]
+Fix duration flag.
+Set non-persistent widgets as default (Use option "Allow widget reloading" to enable non-persistent widgets).
+
+[B]1.6.1[/B]
+Add small home submenu.
+Add small powermenu.
+Enable CleartArt on tv shows when CDArt is enable.
+Fix on Extended infos.
+Fix logos list views with sets.
+
+[B]1.6.0[/B]
+Add possibility to view CDArt instead of ClearArt on video infos.
+Add possibility to hide submenus icons.
+Add possibility to change colors of indicators.
+Many changes in PVR.
+Change : justify all plots.
+Change posters aspect ratio.
+Change structure for music artworks (logo.png and cdart.png).
+Fix views.
+
+[B]1.5.9[/B]
+Add number of TV shows on header.
+Add possibility to download automatically artworks after library update.
+Many fixes.
+Changes : bigger cleararts and logos on some views.
+
+[B]1.5.8[/B]
+Add new view : Cleararts list.
+Add new view : Logos list.
+Fix AM/PM on OSD.
+
+[B]1.5.7[/B]
+Add new view : Big wide with cleararts.
+Fix select dialog.
+
+[B]1.5.6[/B]
+Add new view : Logos with Fanarts/Thumbs.
+Fix finish time on OSD with 12 hours format.
+Fix indicators.
+Tweak for 16:9 thumbs/Hide infos to be independant with movies and tvshows.
+
+[B]1.5.5[/B]
+Add Unwatched Movies & Unwatched Episodes widgets.
+Add new music visualisation background : Pixelated fanart (need script.colorbox addon).
+Fix indicators not show by default.
+
+[B]1.5.4[/B]
+Add possibility to choose a widget or a picture/multi pictures for each item of Hub (Thanks 
+rhodges).
+
+[B]1.5.3[/B]
+Changes in Cycle view.
+
+[B]1.5.2[/B]
+Add possibility to show all indicators / Hide unwatched indicators only / Hide all indicators in library settings.
+
+[B]1.5.1[/B]
+Many fixes.
+
+[B]1.5.0[/B]
+Fix on music infos.
+
+[B]1.4.9[/B]
+Changes in necessary addons in skin settings.
+Change duration format on widgets.
+
+[B]1.4.8[/B]
+Add possibility to hide next aired infos on tvshows library.
+
+[B]1.4.7[/B]
+Fix views names.
+Add stuff at Christmas.
+
+[B]1.4.6[/B]
+Fix for music visualisation always stay.
+
+[B]1.4.5[/B]
+Add Big Banner view.
+Add duration on widgets.
+Fix Movies Widget Hub.
+Replace unwatched indicator.
+
+[B]1.4.4[/B]
+Add Big Fanarts view.
+
+[B]1.4.3[/B]
+Add fanarts support for Next Aired addon.
+Add season and episode number for next aired widget.
+
+[B]1.4.2[/B]
+Add cycle view.
+
+[B]1.4.1[/B]
+Add persistent widgets.
+Fix basic list.
+Fix header not disappear on password popup.
+
+[B]1.4.0[/B]
+Add possibility to show indicators of watched, unwatched, in progress and new videos with widget infos.
+Add possibility to show total number, unwatched number and watched number of episodes for TV shows and seasons.
+Add new Keyboard.
+Add autocompletion Keyboard (need plugin.program.autocompletion addon).
+Changes in numeric keyboard.
+Changes in Select, Browse and Profiles dialogs.
+Add auto size buttons on addons dialog infos.
+Tweak how cast lists etc are handled in videoinfo / extended info.
+Fix home menu with color for each tiles.
+Fix extended info video list views for new version.
+Fix dbid lookup in extendedinfo.
+Fix slide animation on home menu.
+Fix thumbs on episodes.
+Fix AM/PM not disappear on powermenu.
+
+[B]1.3.2[/B]
+Add possibility to show widget posters to be Always/Never/On Up for each menu item.
+Add possibility to hide header tile.
+Rollback with widgets playlists.
+Fix thumbs on episodes with info list 2.
+Fix playback previous item on weather widget (Thanks rhodges).
+Changes in home widgets.
+
+[B]1.3.1[/B]
+Add possibility to choose, photo, video or musique for splash screen.
+Add support for Arial font (Thanks yakirp88).
+Add new "Icons and texts only" home bar.
+Add possibility to show video infos panel when playback is paused.
+Add possibility to choose time before synopsis display in the video library.
+Fix AM/PM not disappear on submenu.
+Fix video info on actors info during playback.
+Fix aspect ratio poster on music playlist.
+Change ID of the skin.
+Change system date to be the same as date in settings.
+
+[B]1.3.0[/B]
+Add possibility to customize up to 15 hubs.
+Add search function in video library.
+Add possibility to create color theme.
+Add new login screen.
+Change : Header tile color is same as home bar color.
+Many changes in skin settings.
+Cleanup duplicate widgets.
+
+[B]1.2.4[/B]
+Add new submenu on home.
+Add loop selection on submenu.
+Fix RSS on weather screen.
+Other fixes.
+
+[B]1.2.3[/B]
+Add possibility to password protect items on home menu (Password need to be configured in extras skin settings and protection in personnalise home menu).
+Fix for "Text in tiles" home bar menu style when there is more 10 items.
+Fix RSS for new home bar menu.
+Fix submenu background when home background is added.
+Fix views for movies sets.
+
+[B]1.2.2[/B]
+Add support for studio icons.
+Add seasons and episodes numbers for Nextup Service Notification.
+Add possibility to change home bar color and opacity in skin settings.
+Add possibility to change widget tile color and opacity in skin settings.
+Add possibility to add background for each submenu items.
+Add possibility to add background for each hub items.
+Add arrows on "text only" home bar menu style.
+Add new "Posters list" view.
+Add possibility to replace widget fanart with home background.
+Fix logo with UnwatchedInfo from Nextup Service Notification with new update.
+Fix Big List view.
+Fix home bar menu arrows.
+Fix for "beveled tiles" and "empty beleved tiles" home bar menu style when there is more 10 items.
+
+[B]1.2.1[/B]
+Fix home menu bar problem.
+
+[B]1.2.0[/B]
+Add fallback icons for ratio, channels, resolution and others.
+Add more colors palettes in color picker.
+Add "circle tiles", "empty circle tiles", "empty beveled tiles", "empty squared tiles", "empty squared tiles with rounded corners" for home menu.
+Add posters preview on sets.
+Remove script.toolbox addon needed.
+Fix submenu in video nav.
+Fix header text when clearlogos are enabled.
+Many other fixes.
+
+[B]1.1.1[/B]
+Replace cdART Manager NG by new cdART Manager.
+Fix Custom RSS.
+Fix progression on "Text only" home style menu.
+New HEVC icon.
+
+[B]1.1.0[/B]
+Add missing audio fallback icon.
+Add possibility to change tile's text color and possibility to change each tile's text color individually.
+Add new method to selecting home menu bar style.
+Add new method to selecting header tile style.
+Add new method to selecting widgets tile style.
+Add new method to selecting music visualisation background.
+Add up to 5 icons for languages and subtitles on video info dialog.
+Add possibility to change background color and opacity (replace fanart transparency).
+Add possibility to reset colors individually.
+Move header tile style to header settings.
+Fix finish time display on OSD.
+Fix individual tile colors.
+
+[B]1.0.9[/B]
+Add debug grid in skin settings.
+Add new method to selecting views.
+Fix reloading home menu bar (Thanks avia).
+Change sliders appearance.
+Tweak seek bar load.
+Other bugs fix.
+
+[B]1.0.8[/B]
+Updated skin files for Extended Info script.
+Updated channel numbers to show subchannels.
+Add disc number on music visualisation.
+Add support for RSS Editor addon.
+Fix color picker background.
+Fix RSS feeds on home menu.
+
+[B]1.0.7[/B]
+Add button to context menu to open video playlist window.
+Add button to context menu to go back to music visualisation background.
+Add support for cdART Manager NG addon (new version with new fanart.tv API).
+Add Script Toolbox addon in necessary addons.
+Add support for Thumbs 16:9 with some views.
+Add possibility to hide informations (titles/plots/logos) on some views.
+New color picker (Credits to braz).
+
+[B]1.0.6[/B]
+Add possibility to hide playback information on music visualisation background. 
+Fix transparency on addons browser.
+Fix header tile and widget tile not showing at first install.
+Fix default transparency at first install.
+Changes in skin settings.
+
+[B]1.0.5[/B]
+Add support for unwatched tv show popup from NextUp Notification addon.
+Add possibility to choose weather icons addon in skin settings.
+Add album wall option for music visualisation background.
+Fix up/down controls in skin settings.
+Fix labels on necessary addons menu.
+Fix genres icons not working.
+
+[B]1.0.4[/B]
+Add translation for fallback widgets.
+Add possibility to choose Fanart transparency in skin settings.
+Add possibility to choose highlight color opacity.
+Add possibility to show media flags on Hub widget.
+Add possibility to show clearlogos on Hub widget.
+Remove big wide with logos view with episodes.
+
+[B]1.0.3[/B]
+Add indicator icons for episodes to Big Icon view.
+Add Home menu to player controls window when nothing is playing.
+Add possibility to show ClearLogo on widget tile in skin settings.
+Add new necessary addons menu in skin settings.
+Add text info for each skin settings.
+Add debug mode in skin settings.
+Add Info List 2 (Info list without side poster).
+Add option to turn plot off in hub widget.
+Changes on video OSD.
+Browse skin icons in panel.
+Replace lyrics font.
+Fix audio icon on dialog info.
+Fix lyrics on music visualisation.
+Fix codec info overlay colour for light theme.
+
+[B]1.0.2[/B]
+Add auto update button to addon info (ID 13).
+Add new Big Wide with logos view.
+Add icon on tile for player status.
+Add new PlayerControls window that shows music playlist or now playing video plus information.
+Fix nofocused color with albums on Big Icon view.
+Fix ClearArt on video infos with director and actors.
+Move last update label for addons like rss.
+
+[B]1.0.1[/B]
+Add default/none items to settings.
+Add episode and season number to OSD info and home.
+Add Next Aired RSS.
+Add oninfo for Home and Hub Movie and TV Widgets.
+Add osd controls to Home Screen on up.
+Add Extra Info from OSD more like library view.
+Add menucontrol for view menu.
+Add Big Icon view for episodes.
+Add new viewtype InfoList.
+Add new music visualisation (credits to SeedyEvil).
+Add new settings on music osd to hide clock and tile.
+Add Audio DSP Manager and settings.
+Add rottentomatoes score to movie info and possible to hide them in skin settings.
+PVR OSD Guide + Channel now playing select stripe.
+-- Fix some highlight color issues.
+Fix for extendedinfo.
+Fix don't pause on extended info from osd.
+Fix text for movie streams now playing.
+Fix nowplaying bar.
+Fix list.
+Fix viewtype selection bug.
+Remove MyMusicSongs and Karaoke.
+Remove Rollback button on info addons.
+Changes in Gallery View.
+Make default primary highlight for fullscreen.
+Tweak Info Icons viewtype to remove bottom line and match dimensions.
+Match extendedinfo browser to new info icons viewtype.
+
+[B]1.0.0[/B]
+Replace default background.
+Replace text buttons by icons buttons on video and music info dialogs.
+Replace OSD controls buttons with icons.
+Replace indicator icons.
+Replace all flags icons and add aspect ratio, video codec, audio codec, duration, finishtime and sets icons.
+Replace duration minutes labels by hour:minutes labels.
+Add mangas and new kodi icons.
+Add 'rounded tiles' and 'square tiles' menus.
+Add possibility to change header tile style in skin settings.
+Add possibility to change widget tile style in skin settings.
+Add possibility to hide classification informations (MPAA) in skin settings.
+Add possibility to hide rating and votes in skin settings.
+Add subtitles icons on video dialog info.
+Add support for CinemaVision addon but not skinned.
+Add support for CU LRC Lyrics addon.
+Add support fo NextUp Notification addon.
+Add Fullscreen button to show Fanart on video and music info dialogs.
+Add option in skin settings to show ClearArt on videos dialo info.
+Add option in skin settings to show ClearArt on video OSD.
+Add option in skin settings to show ClearArt on NextUp Notification addon.
+Add option in skin settings to show CDArt on albums dialo info.
+Add option in skin settings to show movies/tv shows clearlogos on library.
+Add option in skin settings to show artists clearlogos on library.
+Add Youtube integration for musics and use extendedinfo script rather script helper service script.
+Add possibility to select none widget fallback.
+Add last updated label for addons.
+Add back to fullscreen button on context menu when video is playing.
+Add French translation.
+Many changes in submenus and power menu.
+Many changes in video OSD.
+Fix arrows not correctly displayed on 'text in tile' menu.
+Fix aspect ratio for posters on widgets.
+Fix Next Aired color labels with Light Skin.
+Skinning Global Search context menu.
+
+All updates from original version are included.
