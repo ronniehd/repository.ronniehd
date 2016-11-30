@@ -454,23 +454,23 @@ msgid "Downloading AceStream modules."
 msgstr ""
 
 msgctxt "#30111"
-msgid "Downloading AcestreamEngine bundle for Android"
+msgid "Downloading AceStream Engine bundle for Android"
 msgstr ""
 
 msgctxt "#30112"
-msgid "By default Plexus will use its included Acestream Engine"
+msgid "It is necessary to have AceStream.apk or TSC.apk installed"
 msgstr ""
 
 msgctxt "#30113"
-msgid "Do you want to download and use the app instead?"
+msgid "Select YES to download AceStream Engine and use it with Kodi"
 msgstr ""
 
 msgctxt "#30114"
-msgid "It is necessary to have acestreamengine.apk"
+msgid "Select NO to continue to next option..."
 msgstr ""
 
 msgctxt "#30115"
-msgid "installed to run Acestreams."
+msgid "to play AceStream's links."
 msgstr ""
 
 msgctxt "#30116"
@@ -478,39 +478,39 @@ msgid "It will be downloaded now!"
 msgstr ""
 
 msgctxt "#30117"
-msgid "Downloading AcestreamEngine.apk"
+msgid "Downloading AceStream.apk"
 msgstr ""
 
 msgctxt "#30118"
-msgid "Acestream.apk downloaded to folder:"
+msgid "AceStream.apk downloaded to folder:"
 msgstr ""
 
 msgctxt "#30119"
-msgid "Don't forget AcestreamEngine app"
+msgid "Don't forget AceStream Engine app should be running"
 msgstr ""
 
 msgctxt "#30120"
-msgid "should be running before starting"
+msgid "before starting any AceStream!"
 msgstr ""
 
 msgctxt "#30121"
-msgid "any Acestream!"
+msgid ""
 msgstr ""
 
 msgctxt "#30122"
-msgid "Do you want to download Ace Player?"
+msgid "Do you want to download Torrent Stream Controller?"
 msgstr ""
 
 msgctxt "#30123"
-msgid "This will enable you the ability to use the external player option."
+msgid "This will enable you the option to use an external player instead of Kodi."
 msgstr ""
 
 msgctxt "#30124"
-msgid "Downloading Ace Player"
+msgid "Downloading TSC.apk"
 msgstr ""
 
 msgctxt "#30125"
-msgid "Aceplayer.apk downladed to folder:"
+msgid "TSC.apk downladed to folder:"
 msgstr ""
 
 msgctxt "#30126"
