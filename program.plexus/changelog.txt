@@ -1,7 +1,15 @@
+30/11/2016 - Version 0.1.6
+-Added AceStream Media (Engine) and Torrent Stream Controller apks download options
+-Removed obsolete Engine bundle, old AceStream Engine and Ace Player apks from add-on settings 
+and from plexus-dependencies modules
+-Android: changed, fixed, added and cleaned code related to Android
+-Updated English translations
+-Added Spanish translation
+
 18/11/2016 - Version 0.1.5
 -Forked plexus-dependencies
--updated some modules (rpi, android)
--Android: Acestream Media is opened instead of old Ace Player
+-Updated some modules (rpi, android)
+-Android: AceStream Media (Engine) app is opened instead of old Ace Player
 
 10/2/2015 - Version 0.1.4
 -transfer to TVA repo
