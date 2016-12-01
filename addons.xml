@@ -2,7 +2,7 @@
 <addons>
 <addon id="program.plexus"
        name="Plexus"
-       version="0.1.6"
+       version="0.1.6.a"
        provider-name="enen92, TVAddons, RonnieHD">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
