@@ -178,7 +178,7 @@ msgid "timeout!"
 msgstr ""
 
 msgctxt "#30041"
-msgid "Acestream module not installed."
+msgid "AceStream module not installed."
 msgstr ""
 
 msgctxt "#30042"
@@ -262,7 +262,7 @@ msgid "Buffering"
 msgstr ""
 
 msgctxt "#30062"
-msgid "Acestream Engine"
+msgid "AceStream Engine"
 msgstr ""
 
 msgctxt "#30063"
@@ -518,7 +518,7 @@ msgid "Do you want to use the external player as default?"
 msgstr ""
 
 msgctxt "#30127"
-msgid "AceStream: All done!"
+msgid "AceStream: All done sucessfully!"
 msgstr ""
 
 msgctxt "#30128"
@@ -562,7 +562,7 @@ msgid "Clear addon history"
 msgstr ""
 
 msgctxt "#30138"
-msgid "SopCast configuration"
+msgid "SopCast Configuration"
 msgstr ""
 
 msgctxt "#30139"
@@ -614,7 +614,7 @@ msgid "Custom app id"
 msgstr ""
 
 msgctxt "#30151"
-msgid "AceStream configurations"
+msgid "AceStream Configurations"
 msgstr ""
 
 msgctxt "#30152"
