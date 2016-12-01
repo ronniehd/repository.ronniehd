@@ -641,7 +641,7 @@ def configure_acestream(latest_version):
 					download_tools().remove(acefile)
 				xbmc.sleep(2000)
 				mensagemok(translate(30000),translate(30118),pasta,translate(30108))
-				mensagemok(translate(30000),translate(30119),translate(30120))
+				mensagemok(translate(30000),translate(30121))
 				settings.setSetting('engine_app','0')
 			else:	
 				opcao= xbmcgui.Dialog().yesno(translate(30000), translate(30122),translate(30123))

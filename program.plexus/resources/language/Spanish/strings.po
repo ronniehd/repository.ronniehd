@@ -495,8 +495,8 @@ msgid "before starting any AceStream!"
 msgstr "antes de iniciar cualquier enlace AceStream!"
 
 msgctxt "#30121"
-msgid ""
-msgstr ""
+msgid "If default option Engine+Kodi Player does not work for you, then manually switch to Engine+External Player within AceStream Configurations"
+msgstr "Si la opción por defecto Engine+Kodi Player no le funciona bien, entonces cambie manualmente a Engine+External Player dentro de Ajustes de AceStream"
 
 msgctxt "#30122"
 msgid "Do you want to download Torrent Stream Controller?"

@@ -494,7 +494,7 @@ msgid "before starting any AceStream!"
 msgstr ""
 
 msgctxt "#30121"
-msgid ""
+msgid "If default option Engine+Kodi Player does not work for you, then manually switch to Engine+External Player within AceStream Configurations"
 msgstr ""
 
 msgctxt "#30122"
