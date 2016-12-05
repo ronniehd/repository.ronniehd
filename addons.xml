@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.ronniehd" name="RonnieHD repository" version="1.0.1" provider-name="RonnieHD">
+	<extension point="xbmc.addon.repository" name="RonnieHD Repository">
+		<info compressed="false">https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/ronniehd/repository.ronniehd/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Third party Kodi addons updates/mods</summary>
+		<description>RonnieHD Repository</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="program.plexus"
        name="Plexus"
        version="0.1.6.a"
@@ -23,6 +37,29 @@
    	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.quasar" name="Quasar" version="0.9.36" provider-name="scakemyer">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.subtitle.module" library="navigation.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en</language>
+        <website><![CDATA[https://github.com/scakemyer/plugin.video.quasar]]></website>
+        <forum><![CDATA[http://forum.kodi.tv/showthread.php?tid=257967]]></forum>
+        <source><![CDATA[https://github.com/scakemyer/plugin.video.quasar]]></source>
+        <language>en</language>
+        <license><![CDATA[Non commercial. See https://github.com/scakemyer/plugin.video.quasar/blob/master/LICENSE]]></license>
+        <summary><![CDATA[Quasar: Torrent streaming]]></summary>
+        <description><![CDATA[Stream torrent files]]></description>
+    </extension>
 </addon>
 
 <addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.55" provider-name="spoyser">
@@ -71,20 +108,6 @@
   </extension>
 </addon>
 	
-<addon id="repository.ronniehd" name="RonnieHD repository" version="1.0.1" provider-name="RonnieHD">
-	<extension point="xbmc.addon.repository" name="RonnieHD Repository">
-		<info compressed="false">https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/ronniehd/repository.ronniehd/raw/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Third party Kodi addons updates/mods</summary>
-		<description>RonnieHD Repository</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon
     id="skin.eminence.2.mod"
     version="1.7.0"
@@ -144,6 +167,24 @@
   </extension>
 </addon>
 
+<addon id="script.program.androidbrowser"
+  name="Browser"
+  version="1.0" 
+  provider-name="RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">A Browser shortcut for Android</summary>
+    <summary lang="es">Atajo del Navegador para Android</summary>
+    <description lang="en">Launches a Browser app on Android.  Can be added to the Home screen for quick access.</description>
+	<description lang="es">Abre una app Navegador en Android.  Puede ser añadido a la pantalla inicial para un acceso rápido.</description>
+  </extension>
+</addon>
+
 <addon id="script.program.androidnetflix"
   name="Netflix"
   version="1.0" 
@@ -156,34 +197,117 @@
   <extension point="xbmc.addon.metadata">
     <platform>android</platform>
     <summary lang="en">Netflix shortcut for Android</summary>
-    <summary lang="es">Atajo Netflix para Android</summary>
+    <summary lang="es">Atajo de Netflix para Android</summary>
     <description lang="en">Launches the Netflix app on Android.  Can be added to the Home screen for quick access.</description>
-   
-<description lang="es">Abre la app Netflix en Android.  Puede ser añadido a la pantalla inicial para un acceso rápido.</description>
+	<description lang="es">Abre la app Netflix en Android.  Puede ser añadido a la pantalla inicial para un acceso rápido.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.quasar" name="Quasar" version="0.9.36" provider-name="scakemyer">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="navigation.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup"/>
-    <extension point="xbmc.python.module" library="resources/site-packages" />
-    <extension point="xbmc.subtitle.module" library="navigation.py" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <language>en</language>
-        <website><![CDATA[https://github.com/scakemyer/plugin.video.quasar]]></website>
-        <forum><![CDATA[http://forum.kodi.tv/showthread.php?tid=257967]]></forum>
-        <source><![CDATA[https://github.com/scakemyer/plugin.video.quasar]]></source>
-        <language>en</language>
-        <license><![CDATA[Non commercial. See https://github.com/scakemyer/plugin.video.quasar/blob/master/LICENSE]]></license>
-        <summary><![CDATA[Quasar: Torrent streaming]]></summary>
-        <description><![CDATA[Stream torrent files]]></description>
-    </extension>
+<addon id="script.program.androidhangouts"
+  name="Hangouts"
+  version="1.0" 
+  provider-name="RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Hangouts shortcut for Android</summary>
+    <summary lang="es">Atajo de Hangouts para Android</summary>
+    <description lang="en">Launches the Hangouts app on Android.  Can be added to the Home screen for quick access.</description>
+	<description lang="es">Abre la app Hangouts en Android.  Puede ser añadido a la pantalla inicial para un acceso rápido.</description>
+  </extension>
 </addon>
 
+<addon id="script.program.androidplex"
+  name="Plex"
+  version="1.0" 
+  provider-name="RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Plex shortcut for Android</summary>
+    <summary lang="es">Atajo de Plex para Android</summary>
+    <description lang="en">Launches the Plex app on Android.  Can be added to the Home screen for quick access.</description>
+	<description lang="es">Abre la app Plex en Android.  Puede ser añadido a la pantalla inicial para un acceso rápido.</description>
+  </extension>
+</addon>
+
+<addon id="script.program.androidskype"
+  name="Skype"
+  version="1.0" 
+  provider-name="RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Skype shortcut for Android</summary>
+    <summary lang="es">Atajo de Skype para Android</summary>
+    <description lang="en">Launches the Skype app on Android.  Can be added to the Home screen for quick access.</description>
+	<description lang="es">Abre la app Skype en Android.  Puede ser añadido a la pantalla inicial para un acceso rápido.</description>
+  </extension>
+</addon>
+
+<addon id="script.program.androidspotify"
+  name="Spotify"
+  version="1.0" 
+  provider-name="RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Spotify shortcut for Android</summary>
+    <summary lang="es">Atajo de Spotify para Android</summary>
+    <description lang="en">Launches the Spotify app on Android.  Can be added to the Home screen for quick access.</description>
+	<description lang="es">Abre la app Spotify en Android.  Puede ser añadido a la pantalla inicial para un acceso rápido.</description>
+  </extension>
+</addon>
+
+<addon id="script.program.androidyoutube"
+  name="Youtube"
+  version="1.0" 
+  provider-name="RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Youtube shortcut for Android</summary>
+    <summary lang="es">Atajo de Youtube para Android</summary>
+    <description lang="en">Launches the Youtube app on Android.  Can be added to the Home screen for quick access.</description>
+	<description lang="es">Abre la app Youtube en Android.  Puede ser añadido a la pantalla inicial para un acceso rápido.</description>
+  </extension>
+</addon>
+
+<addon id="script.program.androidyoutube-tv"
+  name="Youtube TV"
+  version="1.0" 
+  provider-name="RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Youtube TV shortcut for Android</summary>
+    <summary lang="es">Atajo de Youtube TV para Android</summary>
+    <description lang="en">Launches youtube.com/tv link from a Browser on Android.  Can be added to the Home screen for quick access.</description>
+	<description lang="es">Abre el enlace youtube.com/tv en un Navegador de Android.  Puede ser añadido a la pantalla inicial para un acceso rápido.</description>
+  </extension>
+</addon>
 </addons>
