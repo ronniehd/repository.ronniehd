@@ -1,13 +1,13 @@
 <colors>
     <color name="Background">ff181818</color>
     <color name="FanartFade">e2181818</color>
-    <color name="HomeBarBG">f2231810</color>
+    <color name="HomeBarBG">ff181818</color>
     <color name="HomeBarFG">ffededed</color>
     <color name="HomeBarTile">3e555555</color>
-    <color name="HomeWidgetBG">de231810</color>
+    <color name="HomeWidgetBG">ff181818</color>
     <color name="DialogBG">ff181818</color>
-    <color name="Highlight">ffffb300</color>
-    <color name="Highlight2">ffffb300</color>
+    <color name="Highlight">ff287ba8</color>
+    <color name="Highlight2">ffe5b535</color>
     <color name="Selected">fff0f0f0</color>
     <color name="MainLabel">FFededed</color>
     <color name="SubLabel">BFededed</color>
@@ -15,11 +15,9 @@
     <color name="HomeSubLabel">BFededed</color>
     <color name="LineLabel">9Fededed</color>
     <color name="SideArrow">5Fededed</color>
-	<color name="PosterHighlight">de231810</color> 
-    <color name="PosterBorder">66ffb300</color>
+    <color name="PosterBorder">3e555555</color>
     <color name="ListLabel">bfededed</color>
     <color name="Disabled">2fededed</color>
-	<color name="Keyboard">FFa682a6</color>
 <!-- Ajout Color -->    
     <color name="Indicator">FFededed</color>
     <color name="IndicatorBack">ff181818</color>
