@@ -1,5 +1,5 @@
 name="ADVERTENCIA"
-url=""
+url="https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/zips/plugin.video.rhdwizard/leeme.txt"
 img="https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/zips/plugin.video.rhdwizard/advertencia.jpg"
 fanart="https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/zips/plugin.video.rhdwizard/fanart.jpg"
 description="Descarga e Instala las builds disponibles en telegram.me/eminencemod en Un Solo Click!
