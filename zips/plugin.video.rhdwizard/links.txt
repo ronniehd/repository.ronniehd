@@ -1,0 +1,23 @@
+name="ADVERTENCIA"
+url=""
+img="https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/zips/plugin.video.rhdwizard/advertencia.jpg"
+fanart="https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/zips/plugin.video.rhdwizard/fanart.jpg"
+description="Descarga e Instala las builds disponibles en telegram.me/eminencemod en Un Solo Click!
+ADVERTENCIA: Esta herramienta reemplazará toda su configuración actual!"
+type="splash"
+
+name="WIN: build Streaming v3.2"
+url=""
+img="https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/zips/plugin.video.rhdwizard/Win-Stream.png"
+fanart="https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/zips/plugin.video.rhdwizard/fanart.jpg"
+description="Descarga e Instala la build Streaming con todos los addons y sus datos para una configuracion todo-en-uno en Windows
+ADVERTENCIA: Esta herramienta reemplazará toda su configuración actual!"
+type="main"
+
+name="WIN: build MiBiblioteca v1.0"
+url="https://download2101.mediafire.com/g6js6wvqm89g/astzasyccl5ydic/WIN-Biblio.zip"
+img="https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/zips/plugin.video.rhdwizard/Win-Biblio.png"
+fanart="https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/zips/plugin.video.rhdwizard/fanart.jpg"
+description="Descarga e Instala la build MiBiblioteca con todos los addons y sus datos para una configuracion todo-en-uno en Windows
+ADVERTENCIA: Esta herramienta reemplazará toda su configuración actual!"
+type="main"
